@@ -1,43 +1,66 @@
-main{
+main {
     display: flex;
-}
-
-
-.containernavio{
-    border: solid red;
-    width: 60vw; //medida para largura
-    height: 100vh; //medida para altura de 100vh
-    background-image: url("../../assets/Tela\ Login/backgroundLogin.png");
+  }
+  
+  .containerImagem {
+    //border: solid red;
+    background-image: url("../../assets/Tela\ Login/imagem tela de login.png");
+    height: 100vh;
+    width: 60%;
     background-repeat: no-repeat;
-}
-
-.containerformulario{
-    border: solid blue;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-form{
-    border: solid green;
-    width: 50%;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    input{
-        width: 80%;
-        height: 4vh;
-        border-radius: 6px;
-    }
-    div{
-        border: solid blue;
-        width: 60vh;
-        height: 5vh;
-        
-    }
-}
+    background-size: 100%;
+    background-position: center;
+  }
+  
+  .containerForm{
+      //border: solid blue;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1{
+          //border: solid red;
+          width: 37%;
+          font-size: 2rem;
+          text-align: center;
+      }
+  }
+  
+  form{
+      //border: solid green;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+      height: 20vh;
+      input{
+          width: 20vw;
+          height: 5vh;
+          border-radius: 6px;
+      }
+  
+      div{
+          //border: solid red;
+          width: 50%;
+          display: flex;
+          justify-content: space-evenly;
+  
+          .buttonEntrar{
+              background-color: pink;
+              width: 6vw;
+              height: 5vh ;
+              border-radius: 6px;
+          }
+  
+          .buttonCriar{
+              background-color: violet;
+              width: 6vw;
+              height: 5vh ;
+              border-radius: 6px;
+          }
+  
+  
+      }
+  }
