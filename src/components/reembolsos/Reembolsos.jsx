@@ -1,4 +1,4 @@
-import Home from "../../assets/Dashboard/home.png";
+import Home from "../../assets/Dashboard/homeHeader.png";
 import Seta from "../../assets/Dashboard/Vector.png";
 import Solicitar from "../../assets/Dashboard/Solicitar - Reembolso.png";
 import Analise from "../../assets/Dashboard/Análises.png";
@@ -8,7 +8,7 @@ import NumeroAprovados from "../../assets/Dashboard/N-Aprovados.png";
 import NumeroRejeitados from "../../assets/Dashboard/N-Rejeitados.png";
 import NumeroSolicitados from "../../assets/Dashboard/N-Solicitados.png";
 import styles from "./Reembolsos.module.scss";
-import NavBar from "../navbar/Navbar.jsx";
+import NavBar from "../navbar/Navbar.jsx"
 
 function Reembolsos() {
   return (

@@ -1,7 +1,7 @@
 import styles from "./NavBar.module.scss";
-import Historico from "../../assets/Header/Botão - Histórico.png";
+import Historico from "../../assets/Header/Botao-Histórico.png";
 import Home from "../../assets/Header/botão - Home.png";
-import Pesquisa from "../../assets/Header/Botão - Pesquisa.png";
+import Pesquisa from "../../assets/Header/Botao-Pesquisa.png";
 import Reembolso from "../../assets/Header/Botão - Reembolso.png";
 import Sair from "../../assets/Header/Botão - Sair.png";
 import Perfil from "../../assets/Header/image.png";

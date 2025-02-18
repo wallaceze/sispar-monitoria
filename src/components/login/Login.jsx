@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Logo from "../../assets/Tela Login/logo.png"
+import Logo from "../../assets/TelaLogin/logo.png"
 import styles from "./Login.module.scss";
 
 function Login() {

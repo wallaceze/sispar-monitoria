@@ -4,7 +4,7 @@ main {
   
   .containerImagem {
     //border: solid red;
-    background-image: url("../../assets/Tela\ Login/imagem tela de login.png");
+    background-image: url("../../assets/TelaLogin/backgroundLogin.png");
     height: 100vh;
     width: 60%;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ main {
   
   .containerForm{
       //border: solid blue;
-      width: 40%;
+      width: 60%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -48,17 +48,18 @@ main {
           justify-content: space-evenly;
   
           .buttonEntrar{
-              background-color: pink;
+              background-color: rgb(94, 205, 224);
               width: 6vw;
               height: 5vh ;
               border-radius: 6px;
           }
   
           .buttonCriar{
-              background-color: violet;
+              background-color: rgb(110, 109, 109);
               width: 6vw;
               height: 5vh ;
               border-radius: 6px;
+              
           }
   
   
